@@ -14,5 +14,9 @@ Jupyter Polyglot is a Jupyter distribution that supports multiple language kerne
 ## Running Jupyter Polyglot
 
 ```shell
-docker run -d -p 8888:888 -v /opt/notebooks:<local notebook path> --name jupyter-polyglot quay.io/mpfilbin/jupyter-polyglot:latest
+docker run -d \
+  -p 8888:8888 \
+  -v /opt/notebooks:<local notebook path> \
+  --name jupyter-polyglot \
+  quay.io/mpfilbin/jupyter-polyglot:latest
 ```
