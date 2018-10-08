@@ -3,6 +3,8 @@
 
 Jupyter Polyglot is a Jupyter distribution that supports multiple language kernels. This distribution is ideal for language experimentation, prototyping, or those just learning to program.
 
+**Notice:** This project has moved to: https://scm.filb.in/mfilbin/polyglot-jupyter-notebook
+
 ## Supported Kernels
 
 1. Python 2
